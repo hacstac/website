@@ -1,0 +1,68 @@
+baseurl = "https://inputhash.me"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Notebook"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Notebook" # Set a different text for the header on the home page
+  subtitle = "A Daily Journal For My IT Journey!!"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "2 January 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Akash Rajvanshi"
+  website = "inputhash.me"
+  email = "inputhash@gmail.com"
+  github = "AkashRajvanshi"
+  twitter = "Akash_Rajvanshi"
+
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
