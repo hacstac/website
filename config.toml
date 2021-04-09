@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "G-3S4QBQY0HF"
 
 [Params]
   homeTitle = "Notebook" # Set a different text for the header on the home page
@@ -19,12 +19,12 @@ pygmentsCodefencesGuessSyntax = true
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "2 January 2006"
+  dateFormat = "January 2, 2006"
   commit = false
   rss = true
   comments = true
   readingTime = true
-  wordCount = true
+  wordCount = false
   useHLJS = true
   socialShare = false
   delayDisqus = true
